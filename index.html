@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  
-<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-<script>
-  window.alert("my first JavaScript");
-</script>
-<style>
-  .container {
-    background-color:lightgray;
-    margin-top:30px;
-    padding-bottom:30px;
-   }
-</style>
-<title>Bootstrap Practice</title>
+
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+  <script src="js/jquery-1.12.2.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <style>
+    .container {
+      background-color: lightgray;
+      margin-top: 30px;
+      padding-bottom: 30px;
+    }
+  </style>
+  <title>Bootstrap Practice</title>
 
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">LeetCode</a></li>
+        <li><a href="#"><font color="orange">LeetCode Premium Subscription</font></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Problems
+        <span class="caret"></span></a>
+          <li><a href="#">Pick One</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mock
+        <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Mock Interview</a></li>
+              <li><a href="#">Past Sessions</a></li>
+            </ul>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Discuss</a></li>
+            <li><a href="#"><font color="orange">Book</font></a></li>
+      </ul>
+      <ul class="nav navbar-form navbar-right">
+        <button type="button" class="btn btn-primary"> Sign up </a>
+        </button>
+        <button type="button" class="btn btn-default">Sign in</a>
+        </button>
+      </ul>
+    </div>
+  </nav>
 
-<div class="container-fluid">
-  <div class= "row">
-    <div class="col-xs-3 col-sm-6 col-md-6">
-      <p> Lorem ipsum</p>
-      
+  <div class="container">
+    <h1>LeetCode Online Judge</h1>
+    <p>We are supporting <font color="red">JavaScript</font> and <font color="red">Ruby</font> now!</p>
+    <p>LeetCode OJ is platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly. It is that easy!</p>
+    <p>Our platform currently supports total of 9 languages: C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL.</p>
+    <p> <a href="url">Follow</a> or <a href="url">Like LeetCode</a> and get the <font color="red">latest update</font> when a new question is added!</p>
+    <ul>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bot%C3%B3n_Me_gusta.svg/2000px-Bot%C3%B3n_Me_gusta.svg.png" style="width:20px;height:20px; "><a href="url">Facebook</a></li>
+      <li><img src="http://c279160.r60.cf1.rackcdn.com/assets/blog_post/meta_og_image/125/tweet-nfc-tags-43x43-lg.png" style="width:20px;height:20px;"><a href="url">Twitter</a></li>
+      <li><img src="http://blogs-images.forbes.com/rebeccafannin/files/2014/04/5812606276_2401e9c0f9_b.jpg" style="width:20px;height:20px;"><a href="url">Weibo</a></li>
+    </ul>
+    
+    <div class="CRD">
+      <ul class="list-inline">
+        <li><a href="url">Code.  </a></li>
+        <li><a href="url">Read.  </a></li>
+        <li><a href="url">Discuss.  </a></li>
+        <li></li>
+      </ul>
     </div>
-    <div class="col-xs-3 col-sm-3 col-md-3">
-      <p> Lorem ipsum</p>
+    
+    <ul class="list-inline">
+      <li>
+          <input type="text" class="form-control" id="usr" placeholder="Username">
+      </li>
+
+      <li>
+          <input type="text" class="form-control" id="usr" placeholder="E-mail address">
+      </li>
+
+      <li>
+          <input type="password" class="form-control" id="pwd" placeholder="password">
+      </li>
+
+      <li>
+        <button type="button" class="btn btn-primary"> Sign up for LeetCode OJ</button>
+      </li>
+    </ul>
+    <div class="bottom_pic" align="right">
+      <p>or sign up with:</p>
+      <ul class="list-inline">
+        <li><img src="http://static1.squarespace.com/static/4f5810d9e4b0ebbf0a1507a6/t/55a6e39be4b0e13bc07f93a1/1437000604121/" style="width:20px;height:20px;"></li>
+        <li><img src="http://www.techverse.net/wp-content/uploads/2014/01/google-plus-icon.png" style="width:20px;height:20px;"></li>
+        <li><img src="http://www.socgeol.it/files/immagini/Newsletter/n24/linkedin_240.png" style="width:20px;height:20px;"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" 
+        style="width:20px;height:20px;"></li>
+      </ul>
     </div>
-    <div class ="col-xs-3 col-sm-3 col-md-3">
-      <form action="/" method="POST">
-        <div class="form-group">
-          <label>Username:</label>
-          <input type="text" class="form-control">
-        </div>
-        <button type="submit" class="form-contol btn">
-        
-      </form>
-    </div>
-    <div class="col-xs-3 col-sm-3 col-md-3">
-      <p> Lorem ipsum</p>
-      
-    </div>
+
   </div>
-  <h1>Bootstrap Practice</h1>
-  <p>Time for a break!</p>
-  <img src="images/coffee.gif" class="img-rounded"/>
-</div>
-   
+
+
+
+
 </body>
 
 </html>
